@@ -12,10 +12,13 @@ Just 3 commands to get all the setup within minutes
 ----------------------------------------------------------------------
 
 $ vagrant up 
+ ------------
   This will run 3 virtual machines ( master, node-1, node-2 ) and use master as a ansible controller machine & k8s master as well.
   
 $ vagrant ssh master
+ -------------------
   To get into the master machine.
   
 $ kubectl get nodes
+ ------------------
   To get nodes in the k8s cluster
