@@ -6,10 +6,12 @@ You need to have ==> virtualization software like VirtualBox,VM Ware etc.,In my 
                  
 Note: You don't need to install ansible in the host machine as it uses "ansible_local" as provisioning option. 
       ( Mostly helpful in case you are on windows )
+      
     
  master 192.168.50.10 (ansible controller)
  node-1 192.168.50.11
  node-2 192.168.50.12
+ 
  
 ----------------------------------------------------------------------
 Just 3 commands to get all the setup within minutes 
